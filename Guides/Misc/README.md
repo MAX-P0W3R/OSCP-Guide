@@ -31,6 +31,19 @@ Warning: fread() expects parameter 1 to be resource, bool given in C:\xampp\htdo
 
 Warning: fclose() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\rshell.php on line 89
 ```
+### Decoding using Kali
+
+*   Decode Base64 Encoded Values
+```
+
+echo -n "QWxhZGRpbjpvcGVuIHNlc2FtZQ==" | base64 --decode
+```
+
+*   Decode Hexidecimal Encoded Values  
+```
+
+echo -n "46 4c 34 36 5f 33 3a 32 396472796 63637756 8656874" | xxd -r -ps
+```
 
 ### Windows Command Shell
 #### Search the Entire Filesystem for a File 
