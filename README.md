@@ -1,14 +1,14 @@
 # OSCP-CheatSheet
 
 ## Table of Contents
-- Cheat Sheets
+- [Cheat Sheets](/CheatSheets/)
 
-- Shells
+- [Shells](/Shells/)
 
-- Guides
-  - Buffer Overflow
-  - Active Directory
+- [Guides](/Guides/)
+  - [Buffer Overflow](/Guides/Buffer-Overflow.md)
+  - [Active Directory](/Guides/Active-Directory.md)
   
-- Walkthroughs
-  - HackTheBox
-  - TryHackMe
+- [Walkthroughs](/Walkthoughs/)
+  - [HackTheBox](/walkthroughs/HackTheBox.md)
+  - [TryHackMe](/Walkthroughs/TryHackMe.md)
