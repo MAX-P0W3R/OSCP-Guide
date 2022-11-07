@@ -325,6 +325,27 @@ Check if the target is vulnerable to Shellshock
 sudo nmap $TARGET -p80 --script http-shellshock -oN scans/$TARGET-nmap-scripts-80-http-shellshock
 ```
 
+#### Drupal
+Droopscan
+```bash
+droopscan scan -u <url>
+```
+Username Enumeration
+```bash
+In /user/register just try to create a username and if the name is already taken it will be notified :
+*The name admin is already taken*
+
+If you request a new password for an existing username :
+*Unable to send e-mail. Contact the site administrator if the problem persists.*
+
+If you request a new password for a non-existent username :
+*Sorry, test is not recognized as a user name or an e-mail address.*
+
+Accessing /user/<number> you can see the number of existing users :
+	- /user/1 -> Access denied (user exist)
+	- /user/2 -> Page not found (user doesn't exist)
+ ```
+ 
 #### POP3
 TCP port 110. 
 ```bash
