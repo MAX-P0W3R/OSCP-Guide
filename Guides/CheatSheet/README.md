@@ -251,6 +251,35 @@ smtp-user-enum -M VRFY -U /usr/share/wordlists/metasploit/unix_users.txt -t $TAR
 sudo nmap $TARGET -p25 --script smtp-vuln* -oN scans/mailman-nmap-scripts-smtp-vuln
 ```
 
+#### DNS 53
+```bash
+dnsenum <DOMAIN>
+```
+```bash
+dnsrecon -d <DOMAIN>
+```
+Zone Transfer
+```bash
+dnsrecon -d <DOMAIN> -a
+dig axfr <DOMAIN> @ns1.test.com
+```
+DNS Brute Force
+```bash
+https://github.com/blark/aiodnsbrute
+```
+
+#### Finger port 79
+User Enumeration
+```bash
+finger @<IP>
+finger <USER>@<IP>
+```
+Command Execution
+```bash
+finger "|/bin/id@<IP>"
+finger "|/bin/ls -a /<IP>"
+```
+
 #### HTTP
 TCP port 80.
 ```bash
