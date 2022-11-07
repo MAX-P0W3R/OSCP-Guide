@@ -103,6 +103,11 @@ sudo nmap $TARGET -sV -sC $(print-open-ports-from-nmap-scan scans/$TARGET-nmap-c
 sudo nmap $TARGET -O -oN scans/$NAME-nmap-os
 ```
 
+#### nmapautomater
+```bash
+nmapautomater <ip> all
+```
+
 #### FTP
 TCP port 21.
 
