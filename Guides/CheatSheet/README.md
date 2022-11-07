@@ -1,5 +1,5 @@
 ## OSCP Cheatsheet
-**Author:** Victor Fernandez III
+**Author:** Anonymous
 
 ### Table of Contents
 * [Reconnaissance](#reconnaissance)
