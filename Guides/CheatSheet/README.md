@@ -103,9 +103,19 @@ sudo nmap $TARGET -sV -sC $(print-open-ports-from-nmap-scan scans/$TARGET-nmap-c
 sudo nmap $TARGET -O -oN scans/$NAME-nmap-os
 ```
 
-#### nmapautomater
+#### nmapAutomator
 ```bash
-nmapautomater <ip> all
+nmapAutomator <ip> all
+```
+
+#### Nmap TCP
+```bash
+sudo nmap -sS -sC -sV -oA <name>.tcp -v
+```
+
+#### Nmap UDP
+```bash
+sudo nmap -sU -sS -sC -sV -oA <name>.udp -v
 ```
 
 #### FTP
