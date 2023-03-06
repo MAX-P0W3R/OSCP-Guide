@@ -4,6 +4,7 @@
 ### Table of Contents
 * [Reconnaissance](#reconnaissance)
 * [Enumeration](#enumeration)
+* [SearchSploit & ExploitDB](#SearchSploit)
   * [FTP](#ftp)
   * [SSH](#ssh)
   * [SMTP](#smtp)
@@ -62,6 +63,27 @@ The purpose of the Enumeration phase is to narrow-down the number of possible at
 | 10.11.12.25 | 2049 | NFS | FreeBSD |
 | 10.11.12.69 | 22 | SSH | Fedora Linux |
 | 10.11.12.123 | 80 | HTTP | Windows Server 2012 R2 |
+
+### SearchSploit
+ Just a quick reference for the exploitdb searchsploit tool in kali linux
+ 
+ #### Installing
+ `kali@kali:~$ sudo apt update -y && sudo apt install exploitdb`
+ 
+ Maybe some extra but related packages? Yes, please!
+ 
+ `kali@kali:~$ sudo apt install exploitdb-papers && exploitdb-bin-sploits`
+
+#### Upgrading
+`searchsploit -u`
+
+#### Help Menu
+`searchploit -h`
+
+#### Basic Search
+`kali@kali:~$ searchsploit afd windows local`
+
+- Note, SearchSploit uses an AND operator, not an OR operator. The more terms that are used, the more results will be filtered out. 
 
 #### Ports
 Declare a variable using the IP address of the target. 
