@@ -12,7 +12,7 @@ Here are the link to the [OSCP Exam Guide](https://help.offensive-security.com/h
 
 ## Table of Contents
 
-- [Basics](https://github.com/max-p0w3r/OSCP#basics)
+- [Basics](https://github.com/MAX-P0W3R/OSCP-Guide/blob/main/Guides/All-In-One.md#basics)
 - [Information Gathering](https://github.com/0xsyr0/OSCP#information-gathering)
 - [Vulnerability Analysis](https://github.com/0xsyr0/OSCP#vulnerability-analysis)
 - [Web Application Analysis](https://github.com/0xsyr0/OSCP#web-application-analysis)
