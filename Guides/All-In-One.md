@@ -13,8 +13,8 @@ Here are the link to the [OSCP Exam Guide](https://help.offensive-security.com/h
 ## Table of Contents
 
 - [Basics](https://github.com/MAX-P0W3R/OSCP-Guide/blob/main/Guides/All-In-One.md#basics)
-- [Information Gathering](https://github.com/0xsyr0/OSCP#information-gathering)
-- [Vulnerability Analysis](https://github.com/0xsyr0/OSCP#vulnerability-analysis)
+- [Information Gathering](https://github.com/MAX-P0W3R/OSCP-Guide/blob/main/Guides/All-In-One.md#information-gathering)
+- [Vulnerability Analysis](https://github.com/MAX-P0W3R/OSCP-Guide/blob/main/Guides/All-In-One.md#Vulnerability-Analysis)
 - [Web Application Analysis](https://github.com/0xsyr0/OSCP#web-application-analysis)
 - [Password Attacks](https://github.com/0xsyr0/OSCP#password-attacks)
 - [Reverse Engineering](https://github.com/0xsyr0/OSCP#reverse-engineering)
