@@ -68,10 +68,7 @@ The purpose of the Enumeration phase is to narrow-down the number of possible at
 ### Impacket
 ### Executing remote commands 
 #### psexec.py 
-psexec.py provides functionality similar to PSEXEC, utilizing RemComSvc. The following command example demonstrates how you could utilize psexec.py:
-`python psexec.py domain/user:password@target_machine`
-
-
+ `python psexec.py domain/user:password@target_machine`
 
 ### SearchSploit
  Just a quick reference for the exploitdb searchsploit tool in kali linux
