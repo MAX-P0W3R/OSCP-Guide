@@ -4,6 +4,7 @@
 ### Table of Contents
 * [Reconnaissance](#reconnaissance)
 * [Enumeration](#enumeration)
+* [Impacket](#impacket)
 * [SearchSploit & ExploitDB](#SearchSploit)
   * [FTP](#ftp)
   * [SSH](#ssh)
@@ -63,6 +64,14 @@ The purpose of the Enumeration phase is to narrow-down the number of possible at
 | 10.11.12.25 | 2049 | NFS | FreeBSD |
 | 10.11.12.69 | 22 | SSH | Fedora Linux |
 | 10.11.12.123 | 80 | HTTP | Windows Server 2012 R2 |
+
+### Impacket
+### Executing remote commands 
+#### psexec.py 
+psexec.py provides functionality similar to PSEXEC, utilizing RemComSvc. The following command example demonstrates how you could utilize psexec.py:
+`python psexec.py domain/user:password@target_machine`
+
+
 
 ### SearchSploit
  Just a quick reference for the exploitdb searchsploit tool in kali linux
