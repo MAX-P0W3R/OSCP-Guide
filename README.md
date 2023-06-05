@@ -1,7 +1,7 @@
 # OSCP-CheatSheet
 
 ## Table of Contents
-- [Cheat Sheets](/Guides/CheatSheets/)
+- [Cheat Sheets](/Guides/CheatSheet/)
 
 - [Shells](/Shells/)
 
