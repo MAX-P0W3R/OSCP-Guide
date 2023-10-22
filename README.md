@@ -6,8 +6,8 @@
 - [Shells](/Shells/)
 
 - [Guides](/Guides/)
-  - [Buffer Overflow](/Guides/Buffer-Overflow.md)
-  - [Active Directory](/Guides/Active-Directory.md)
+  - [Buffer Overflow](/Guides/Buffer-Overflow)
+  - [Active Directory](/Guides/Active-Directory)
   
 - [Walkthroughs](/Walkthoughs/)
   - [HackTheBox](/Walkthroughs/HackTheBox)
