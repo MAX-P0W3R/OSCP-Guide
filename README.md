@@ -12,3 +12,4 @@
 - [Walkthroughs](/Walkthoughs/)
   - [HackTheBox](/walkthroughs/HackTheBox.md)
   - [TryHackMe](/Walkthroughs/TryHackMe.md)
+  - [Proving Grounds (Practice)](/walkthroughs/proving_grounds)
