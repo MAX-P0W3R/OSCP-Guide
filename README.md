@@ -10,6 +10,6 @@
   - [Active Directory](/Guides/Active-Directory.md)
   
 - [Walkthroughs](/Walkthoughs/)
-  - [HackTheBox](/Walkthroughs/HackTheBox.md)
-  - [TryHackMe](/Walkthroughs/TryHackMe.md)
+  - [HackTheBox](/Walkthroughs/HackTheBox)
+  - [TryHackMe](/Walkthroughs/TryHackMe)
   - [Proving Grounds (Practice)](/Walkthroughs/ProvingGrounds)
