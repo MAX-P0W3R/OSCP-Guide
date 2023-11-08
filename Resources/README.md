@@ -10,3 +10,8 @@
 
 - [Windows Priv Esc](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md#user-enumeration)
 
+- [Linux Priv Esc](https://steflan-security.com/category/guides/privilegeescalation/linux/)
+
+- [HackTricks](https://steflan-security.com/category/guides/privilegeescalation/linux/)
+- [Reverse Shell Generator](https://www.revshells.com/)
+- [Acive Directory Cheatsheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
