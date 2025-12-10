@@ -2,6 +2,30 @@
 
 Scripts and resources for the Offensive Security Certified Professional (OSCP) exam.
 
+---
+
+## ⚠️ Legal Disclaimer
+
+**FOR EDUCATIONAL AND AUTHORIZED TESTING PURPOSES ONLY**
+
+The tools, scripts, and techniques contained in this repository are provided for educational purposes and for use in authorized security testing environments only, such as the OSCP certification exam labs and other explicitly permitted engagements.
+
+By using this toolkit, you acknowledge and agree that:
+
+1. **Authorization Required**: You will only use these tools against systems you own or have explicit written permission to test. Unauthorized access to computer systems is illegal.
+
+2. **No Liability**: The author(s) of this toolkit accept no responsibility or liability for any misuse, damage, or illegal activity resulting from the use of these materials. You assume full responsibility for your actions.
+
+3. **Compliance with Laws**: You are solely responsible for ensuring your use of these tools complies with all applicable local, state, federal, and international laws and regulations.
+
+4. **No Warranty**: This toolkit is provided "as is" without warranty of any kind, express or implied. The author(s) make no guarantees regarding the accuracy, reliability, or completeness of the information provided.
+
+5. **Ethical Use**: These materials are intended to help security professionals learn defensive techniques by understanding offensive methodologies. Always practice ethical hacking principles.
+
+**If you do not agree to these terms, do not use this toolkit.**
+
+---
+
 ## Exam Structure
 
 | Target | Points | Notes |
