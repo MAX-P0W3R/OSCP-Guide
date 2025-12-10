@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="300" src="https://github.com/0xsyr0/OSCP/blob/main/files/oscp.png">
+  <img width="300" height="300" src="https://github.com/MAX-P0W3R/OSCP-Guide/images/oscp+.png">
 </p>
 
 # OSCP Cheat Sheet
