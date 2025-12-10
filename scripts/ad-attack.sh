@@ -3,6 +3,9 @@
 # OSCP Active Directory Attack Script
 # Usage: ./ad-attack.sh <dc_ip> <domain> [username] [password]
 # For the AD set - you start with credentials (simulated breach)
+# DISCLAIMER: For authorized security testing only. Do not use against systems
+# without explicit written permission. The author assumes no liability for
+# misuse. You are responsible for compliance with all applicable laws.
 #==============================================================================
 
 set -e
