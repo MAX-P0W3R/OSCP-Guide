@@ -3,6 +3,9 @@
 # Linux Privilege Escalation Checklist
 # Usage: ./linux-privesc.sh [output_file]
 # Author: Brad Turner
+# DISCLAIMER: For authorized security testing only. Do not use against systems
+# without explicit written permission. The author assumes no liability for
+# misuse. You are responsible for compliance with all applicable laws.
 #==============================================================================
 
 # Colors
