@@ -3,6 +3,9 @@
 # Initial Enumeration Script
 # Usage: ./enum.sh <target_ip> [output_dir]
 # Author: Brad Turner
+# DISCLAIMER: For authorized security testing only. Do not use against systems
+# without explicit written permission. The author assumes no liability for
+# misuse. You are responsible for compliance with all applicable laws.
 #==============================================================================
 
 set -e
